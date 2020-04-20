@@ -5,7 +5,7 @@
 
   <groupId>com.min.git</groupId>
   <artifactId>begin</artifactId>
-  <version>1.0.3.RELEASE</version>
+  <version>1.0.4-SNAPSHOT</version>
 
   <name>begin</name>
   <!-- FIXME change it to the project's website -->
@@ -20,7 +20,7 @@
   <scm>
      <connection>scm:git:https://github.com/DNgh/begin.git</connection>
      <developerConnection>scm:git:https://github.com/DNgh/begin.git</developerConnection>
-    <tag>v1.0.3.RELEASE</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <dependencies>
