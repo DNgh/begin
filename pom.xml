@@ -36,7 +36,7 @@
 	<repository>
 	  <id>localRepository</id>
 	  <name>Local Repository</name>
-	  <url>file://${basedir}/repo</url>
+	  <url>file:${env.basedir}</url>
 	</repository>
   </distributionManagement>
 
@@ -93,7 +93,7 @@
 		  <!-- 更新子模块版本 -->
 		  <autoVersionSubmodules>true</autoVersionSubmodules>
 		  <!-- 标签名 -->
-		  <tagNameFormat>v@{project.version}.RELEASE</tagNameFormat>
+		  <tagNameFormat>v@{project.version}</tagNameFormat>
 		  <!-- git用户名及密码 -->
 		  <username>${env.gitUser}</username>
 		  <password>${env.gitPass}</password>
